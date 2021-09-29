@@ -18,6 +18,7 @@ struct Student  // 定义结构体，名称为 Student
     name = "zhangsan";
     age = 18;
   }
+  Student(string n, int a) : name(n), age(a) {}  // 带参数的构造函数
 };
 
 int main() {
@@ -26,6 +27,9 @@ int main() {
   lisi.age = 25;
   cout << "Name: " << unknown.name << " Age: " << unknown.age << endl;
   cout << "Name: " << lisi.name << " Age: " << lisi.age << endl;
+
+  Student xy("xiaoyi", 19);  // 声明结构体的同时初始化
+  cout << "Name: " << xy.name << " Age: " << xy.age << endl;
 
   return 0;
 }
