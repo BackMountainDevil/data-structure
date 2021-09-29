@@ -28,6 +28,9 @@ int main() {
   cout << "Name: " << unknown.name << " Age: " << unknown.age << endl;
   cout << "Name: " << lisi.name << " Age: " << lisi.age << endl;
 
+  Student hg = {"Hu Ge", 17};  // 声明结构体的同时使用列表初始化
+  cout << "Name: " << hg.name << " Age: " << hg.age << endl;
+
   Student xy("xiaoyi", 19);  // 声明结构体的同时初始化
   cout << "Name: " << xy.name << " Age: " << xy.age << endl;
 
