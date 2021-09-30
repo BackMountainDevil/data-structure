@@ -4,7 +4,6 @@ http://c.biancheng.net/view/1407.html
 https://www.runoob.com/cprogramming/c-structures.html
 */
 
-#include <iomanip>
 #include <iostream>
 #include <string>
 using namespace std;
